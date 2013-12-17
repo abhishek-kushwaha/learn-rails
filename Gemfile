@@ -32,6 +32,12 @@ gem 'zurb-foundation'
   gem 'quiet_assets'
 end 
  
+ group :production do
+gem 'pg'
+gem 'rails_12factor'
+gem 'thin'
+end
+
 
 
 group :doc do
