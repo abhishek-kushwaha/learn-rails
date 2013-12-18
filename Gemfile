@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby "2.0.0"
 gem 'rails', '4.0.1'
 
 # Rails defaults gem 
@@ -31,9 +31,9 @@ gem 'zurb-foundation'
 end 
  
  group :production do
-gem 'pg'
-gem 'rails_12factor'
-gem 'thin'
+	gem 'pg'
+	gem 'rails_12factor'
+	gem 'thin'
 end
 
 
