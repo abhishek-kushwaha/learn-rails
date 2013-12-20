@@ -28,7 +28,7 @@ gem 'zurb-foundation'
   gem 'therubyracer', platforms: :ruby
   gem 'rails_layout'
   gem 'quiet_assets'
-  #gem 'sqlite3'
+  gem 'sqlite3'
 end 
  
  group :production do
